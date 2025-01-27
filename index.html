@@ -1,1 +1,100 @@
-<h1>Test</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/main.js"></script>
+    <title>Pokemons - Nil Borras</title>
+</head>
+<body>
+    <div class="navigation">
+    <header>   
+        <nav>
+            <button onclick="showTab('tab1')">Casa</button>
+            <button onclick="showTab('tab2')">Pokemons</button>
+            <button onclick="showTab('tab3')">Contacto</button>
+        </nav>
+    </header>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="main">
+        <div class="content" id="tab1" style="display: block;"> 
+            <section>
+                <div class="container">
+                    <div class="square-l">
+                        <img src="assets/images/torchic.png" alt="">
+                        <img src="assets/images/treecko.png" alt="">
+                        <img src="assets/images/mudkip.png" alt="">
+                    </div>
+                    <div class="square-r">
+                        <div class="text">
+                            <h3>Tipos de Pokémon</h3>
+                            <p>Los Pokémon tienen diferentes tipos, como Fuego, Agua, Eléctrico, Planta, Psíquico, etc. Cada tipo tiene sus propias fortalezas y debilidades en combate.</p>
+                        </div>
+                        <div class="text">
+                            <h3>Evolución de los Pokémon</h3>
+                            <p>Muchos Pokémon tienen la capacidad de evolucionar a formas más fuertes. La evolución es un proceso por el cual un Pokémon cambia de forma y aumenta sus poderes. Por ejemplo, Torckick evoluciona a Combusken, y luego a Blaziken.</p>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+        </div> 
+
+        <div class="content" id="tab2"> 
+            <section>
+                <div class="square-l">
+                    <h3>¿Que es un pokemon?</h3>
+                    <p>Un pokemon es una criatura de la famosa franquicia con el mismo nombre.</p>
+                    <p>La mayoría de los Pokémon están inspirados en animales del mundo real o criaturas míticas basadas en la vida real</p>
+                </div>
+    
+       
+                <div class="square-r">
+                    <h3>¿Que tipos de pokemon hay?</h3>
+                    <p>Hay 19 tipos de pokemon distintos, estos se pueden convinar entre ellos en parejas de tipos.</p>
+                    <p>Cada tipo de Pokemon tiene sus debilidades y fortalezas. Estas se puedan ver en una tabla de tipos.</p>
+                </div>       
+    
+                <div class="square-l">
+                    <h3>¿Que es un combate Pokemon?</h3>
+                    <p>Un combate Pokemon se puede producir cuando dos entrenadores desean combatir entre ellos. Los combates son con maximo seis pokemons.</p>
+                </div>
+            </section> 
+        </div> 
+
+        <div class="content" id="tab3"> 
+            <section>
+            <div class="container">
+                <div class="square-l-form">
+                    <img src="assets/images/form-img.jpg" alt="">
+                </div>
+
+                <div class="square-r">
+                    <form>
+                        <div class="text">
+                                <div><label for="email" >email</label></div>
+                                <div><input type="text" name="email" id="email" required></div>
+                                <div><label for="mensaje">mensaje</label></div>
+                                <div><input type="text" id="msg" required></div>
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            </section> 
+        </div>
+    </div>
+
+    <footer>
+        <a href="#"><img src="assets/images/mudkip.png" alt=""></a>
+        <a href="#"><img src="assets/images/mudkip.png" alt=""></a>
+        <a href="#"><img src="assets/images/mudkip.png" alt=""></a>
+        <p>Nil Borràs ©</p>
+    </footer>
+
+</body>
+</html>
+
